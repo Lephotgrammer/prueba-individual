@@ -1,0 +1,77 @@
+/* Header */
+.imagen-top {
+  margin-top: -10px;
+}
+/* Imagen fondo */
+body {
+  margin: 0;
+}
+.fondo {
+  margin-top: -20px;
+  background-size: cover;
+}
+.fondo-fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.fondo-1 {
+  background-image: url(../images/back-lock.jpg);
+}
+.fondo-2 {
+  background-image: url(../images/bg3.jpg);
+}
+.modulo-alto {
+  height: 100%;
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  h1 {
+    padding: 15%;
+    color: white;
+    font-family: Ubuntu;
+    .letra-nece {
+      font-size: 16px;
+    }
+  }
+}
+/* Texto individual */
+#texto-individual {
+  margin: 200px 0;
+  hr {
+    text-align: left;
+    width: 100px;
+    background-color: black;
+  }
+  .pd-10 {
+    padding: 10px;
+  }
+}
+/* Me define */
+#me-define {
+  margin: 200px 0;
+  h1 {
+    padding: 20px;
+  }
+}
+.redes {
+  .fa {
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+#logo:hover {
+float: left;
+-moz-transition: all 2.3s ease-in-out;
+-webkit-transition: all 2.3s ease-in-out;
+-o-transition: all 2.3s ease-in-out;
+-ms-transition: all 2.3s ease-in-out;
+transition: all 2.3s ease-in-out;
+-moz-transform: rotateY(-360deg);
+-webkit-transform: rotateY(-360deg);
+o-transform: rotateY(-360deg);
+-ms-transform: rotateY(-360deg);
+transform: rotateY(-360deg);
+}

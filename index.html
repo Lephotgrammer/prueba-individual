@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
+		<!-- Header -->
 		<header>
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
@@ -31,28 +32,29 @@
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="#home">Home</a>
+								<a class="scroller" href="#home">Home</a>
 							</li>
 							<li>
-								<a href="#texto-individual">Texto Individual</a>
+								<a class="scroller" href="#texto-individual">Texto Individual</a>
 							</li>
 							<li>
-								<a href="#my-title">My Title</a>
+								<a class="scroller" href="#my-title">My Title</a>
 							</li>
 							<li>
-								<a href="#me-define">Me Define</a>
+								<a class="scroller" href="#me-define">Me Define</a>
 							</li>
 							<li>
-								<a href="#planes">Planes</a>
+								<a class="scroller" href="#planes">Planes</a>
 							</li>
 							<li>
-								<a href="#contact">Contact</a>
+								<a class="scroller" href="#contact">Contact</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</header>
+		<!-- Parallax -->
 		<section class="fondo fondo-fixed fondo-1">
 			<div class="modulo-alto">
 				<div class="row">
@@ -63,156 +65,463 @@
 					</div>
 				</div>
 			</div>
+			<!-- Texto Individual -->
 		</section>
 		<section id="texto-individual">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7">
-						<img src="images/black-white.jpg" height="354" width="525" alt="">
-						<img src="images/black-white2.jpg" height="354" width="525" alt="">
+					<div class="col-md-7 hidden-sm hidden-xs">
+						<img id="img-hv" src="images/black-white.jpg" height="354" width="525" alt="">
+						<img id="img-hv" src="images/black-white2.jpg" height="354" width="525" alt="">
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 col-sm-12 col-xs-12">
 						<h1>Texto Individual</h1>
 						<hr>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente iusto asperiores quam fuga illum consequatur, ipsam</p>
 						<div class="row pd-10">
 							<div class="col-md-2">
-								<i class="fa fa-shopping-cart fa-5x"></i>
+								<i id="c-ho" class="fa fa-book fa-5x"></i>
 							</div>
 							<div class="col-md-10">
 								<h4>Titulo individual</h4>
-							<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae blanditiis quo repudiandae, hic magnam cumque tempora nobis beatae</h5>
+								<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae blanditiis quo repudiandae, hic magnam cumque tempora nobis beatae</h5>
 							</div>
 						</div>
 						<div class="row pd-10">
 							<div class="col-md-2">
-							<i class="fa fa-paint-brush fa-5x"></i>
+								<i id="c-ho" class="fa fa-paint-brush fa-5x"></i>
 							</div>
 							<div class="col-md-10">
-							<h4>Titulo individual</h4>
-							<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae blanditiis quo repudiandae, hic magnam cumque tempora nobis beatae</h5>
+								<h4>Titulo individual</h4>
+								<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae blanditiis quo repudiandae, hic magnam cumque tempora nobis beatae</h5>
 							</div>
 						</div>
 						<div class="row pd-10">
 							<div class="col-md-2">
-							<i class="fa fa-camera-retro fa-5x"></i>
+								<i id="c-ho" class="fa fa-camera-retro fa-5x"></i>
 							</div>
 							<div class="col-md-10">
-							<h4>Titulo individual</h4>
-							<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae blanditiis quo repudiandae, hic magnam cumque tempora nobis beatae</h5>
+								<h4>Titulo individual</h4>
+								<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae blanditiis quo repudiandae, hic magnam cumque tempora nobis beatae</h5>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- My title -->
 		<section id="my-title">
 			<div class="fondo fondo-fixed fondo-2">
 				<div class="modulo-alto">
-				<div class="row">
-					<div class="col-md-6">
-						<h1>Welcome To My Title
+					<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<h1>Welcome To My Title
 							<hr>
-						<p class="letra-nece">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, sit, quibusdam fugit pariatur dolorum tempore, cupiditate minus dolore quaerat ab aliquam dolor. Tempora id pariatur, eius nihil voluptas aperiam commodi.</p>
-						</h1>
-					</div>
-					<div class="col-md-6">
-						<video width="500" height="400" controls>
-							<source src="images/video.mp4" type="video/mp4">
+							<p class="letra-nece">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, sit, quibusdam fugit pariatur dolorum tempore, cupiditate minus dolore quaerat ab aliquam dolor. Tempora id pariatur, eius nihil voluptas aperiam commodi.</p>
+							</h1>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<video width="500" height="400" controls>
+								<source src="images/video.mp4" type="video/mp4">
 								<source src="cover.webm" type="video/webm">
-						</video>
+							</video>
+						</div>
 					</div>
 				</div>
 			</div>
-			</div>
 		</section>
-		<section id="me-define">
+		<!-- Algo que me define -->
+		<section id="me-define" class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-xs-12 col-md-4">
 					<h1>Algo que me define</h1>
 				</div>
 				<div class="row">
-				<div class="col-md-6">
-					<div class="col-xs-6">
-						<img id="logo" src="images/member7.jpg" height="310" width="310" alt="">
-					</div>
-					<div class="col-xs-6">
-						<div class="details">
-						<h3>Nombre y apellido</h3>
-						<h4>Cargo</h4>
-						<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
+					<div class="col-md-6 col-xs-12">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<img id="logo" src="images/member7.jpg" height="100%" width="100%" alt="">
 						</div>
-						<div class="redes">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<i class="fa fa-google-plus" aria-hidden="true"></i>
-							<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="details">
+								<h3>Nombre y apellido</h3>
+								<h4>Cargo</h4>
+								<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
+							</div>
+							<div class="redes">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<img id="logo" src="images/member8.jpg" height="100%" width="100%" alt="">
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="details">
+								<h3>Nombre y apellido</h3>
+								<h4>Cargo</h4>
+								<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
+							</div>
+							<div class="redes">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="col-xs-6">
-						<img id="logo" src="images/member8.jpg" height="310" width="310" alt="">
-					</div>
-					<div class="col-xs-6">
-						<div class="details">
-						<h3>Nombre y apellido</h3>
-						<h4>Cargo</h4>
-						<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
+				<div class="row">
+					<div class="col-md-6 col-xs-12">
+						<div class="col-md-6 col-sm-6 col-xs-12 hidden-xs">
+							<div class="details">
+								<h3>Nombre y apellido</h3>
+								<h4>Cargo</h4>
+								<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
+							</div>
+							<div class="redes">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
 						</div>
-						<div class="redes">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<i class="fa fa-google-plus" aria-hidden="true"></i>
-							<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<img id="logo" src="images/member9.jpg" height="100%" width="100%" alt="">
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="details">
+								<h3>Nombre y apellido</h3>
+								<h4>Cargo</h4>
+								<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
+							</div>
+							<div class="redes">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<i class="fa fa-google-plus" aria-hidden="true"></i>
+								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<img id="logo" src="images/member10.jpg" height="100%" width="100%" alt="">
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="col-xs-6">
-						<div class="details">
-						<h3>Nombre y apellido</h3>
-						<h4>Cargo</h4>
-						<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
-						</div>
-						<div class="redes">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<i class="fa fa-google-plus" aria-hidden="true"></i>
-							<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
-						</div>
-					</div>
-					<div class="col-xs-6">
-						<img id="logo" src="images/member9.jpg" height="310" width="310" alt="">
+			</section>
+			<!-- Best Offers -->
+			<section id="planes" class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h1>Propuesta</h1>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="col-xs-6">
-						<div class="details">
-						<h3>Nombre y apellido</h3>
-						<h4>Cargo</h4>
-						<p>Sed metus eros, eleifend non porta et, gravida et augue. Phasellus non sapien metus. Morbi malesuada fringilla interdum. Nam vel facilisis</p>
-						</div>
-						<div class="redes">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<i class="fa fa-google-plus" aria-hidden="true"></i>
-							<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="row bd-tr">
+							<div class="col-xs-12">
+								<h4>Starter</h4>
+								<h2 class="pb-5"><strong>1/4</strong></h2>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-book" aria-hidden="true"></i>
+								<h5>Lee poemas</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-pencil" aria-hidden="true"></i>
+								<h5>Escribe tu vida</h5>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-plug" aria-hidden="true"></i>
+								<h5>No te rindas</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-cloud" aria-hidden="true"></i>
+								<h5>Vive tranquilo</h5>
+							</div>
+							<div class="col-xs-12 boton">
+								<a href="#">Vive ahora</a>
+							</div>
 						</div>
 					</div>
-					<div class="col-xs-6">
-						<img id="logo" src="images/member10.jpg" height="310" width="310" alt="">
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center consejos">
+						<div class="row bd-tr">
+							<div class="col-xs-12">
+								<h4>Starter</h4>
+								<h2 class="pb-5"><strong>2/4</strong></h2>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-camera" aria-hidden="true"></i>
+								<h5>Toma fotos</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-coffee" aria-hidden="true"></i>
+								<h5>Tomate un break</h5>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-commenting-o" aria-hidden="true"></i>
+								<h5>Piensa ideas</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-rocket" aria-hidden="true"></i>
+								<h5>Se distinto</h5>
+							</div>
+							<div class="col-xs-12 boton">
+								<a href="#" class="">Vive ahora</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center consejos">
+						<div class="row bd-tr">
+							<div class="col-xs-12">
+								<h4>Starter</h4>
+								<h2 class="pb-5"><strong>3/4</strong></h2>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-paint-brush" aria-hidden="true"></i>
+								<h5>Se creativo</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-leaf" aria-hidden="true"></i>
+								<h5>Camina mas</h5>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-plane" aria-hidden="true"></i>
+								<h5>Experimenta</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-paw" aria-hidden="true"></i>
+								<h5>Deja tu huella</h5>
+							</div>
+							<div class="col-xs-12 boton">
+								<a href="#" class="">Vive ahora</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center consejos">
+						<div class="row bd-tr">
+							<div class="col-xs-12">
+								<h4>Starter</h4>
+								<h2 class="pb-5"><strong>4/4</strong></h2>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-smile-o" aria-hidden="true"></i>
+								<h5>Rie alto</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-sun-o" aria-hidden="true"></i>
+								<h5>Sueña en grande</h5>
+							</div>
+							<div class="col-xs-6 b-d">
+								<i class="fa fa-globe" aria-hidden="true"></i>
+								<h5>Viaja lejos</h5>
+							</div>
+							<div class="col-xs-6">
+								<i class="fa fa-hourglass-o" aria-hidden="true"></i>
+								<h5>Tomate tu tiempo</h5>
+							</div>
+							<div class="col-xs-12 boton">
+								<a href="#" class="">Vive ahora</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	</body>
-</html>
+			</section>
+			<!-- Contact -->
+			<section id="contact">
+				<div class="container">
+					<div class="col-md-12">
+						<h1><strong>Contact Us</strong></h1>
+						<hr class="pull-left">
+					</div>
+					<div class="row">
+						<div class="col-md-9 col-sm-12 col-xs-12">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, eveniet repudiandae consequatur molestiae quasi dolor iusto.</p>
+							<form>
+								<input class="form-control" type="text" placeholder="Name*">
+								<input class="form-control" type="text" placeholder="Email*">
+								<input class="form-control" type="text" placeholder="Subject">
+								<textarea class="form-control" rows="6" placeholder="Message*"></textarea>
+								<button class="btn submit">SUBMIT</button>
+							</form>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12">
+							<h4>CONTACT INFO</h4>
+							<p>Puma 1180</p>
+							<p>Recoleta, CP 8420200</p>
+							<p>
+								<strong>EMAIL: </strong>
+								yourmail@yourdomain.com
+							</p>
+							<p>
+								<strong>PHONE: </strong>
+								+88 (0) 101 0000 000
+							</p>
+							<p>
+								<strong>FAX: </strong>
+								+88 (0) 101 0000 000
+							</p>
+							<h4>CONNECT WITH US</h4>
+							<ul class="lista-icons">
+								<li>
+									<a href="">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-tumblr" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+							<ul class="lista-icons">
+								<li>
+									<a href="">
+										<i class="fa fa-google-wallet" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-wordpress" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-dribbble" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-vimeo" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-skype" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+							<!-- Collapse side -->
+							<div class="collapse-side">
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+											<i class="fa fa-chevron-down" aria-hidden="true"></i>
+											</a>
+											Mostrarse en publico
+											</h4>
+										</div>
+										<div id="collapse1" class="panel-collapse collapse in">
+											<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+												minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+											commodo consequat.</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+											<i class="fa fa-chevron-down" aria-hidden="true"></i>
+											</a>
+											Mostrarse en Privado
+											</h4>
+										</div>
+										<div id="collapse2" class="panel-collapse collapse">
+											<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+												minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+											commodo consequat.</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+											<i class="fa fa-chevron-down" aria-hidden="true"></i>
+											</a>
+											Mi Filosofia
+											</h4>
+										</div>
+										<div id="collapse3" class="panel-collapse collapse">
+											<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+												minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+											commodo consequat.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Footer -->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-xs-12">
+							<img src="images/logo-gray.png" alt="">
+						</div>
+						<div class="col-md-7 col-xs-12">
+							<p>
+								COPYRIGHT C 2016. MY NAME IS XDIWO <br>
+							DESIGNED AND DEVELOPED BY 
+							<a href="">XDIWO</a>
+							</p>
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<ul class="lista-icons">
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+				<!-- Scripts -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+				<script src="lib/smoothscrolling.jquery.js"></script>
+				<script>
+					$(function() {
+					 $("a.scroller").smoothscrolling();
+					})
+				</script>
+			</body>
+		</html>

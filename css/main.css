@@ -36,17 +36,28 @@ body {
 
 /* Texto individual */
 #texto-individual {
-  margin: 200px 0; }
+  margin: 100px 0; }
+  #texto-individual #img-hv:hover {
+    opacity: 0.4; }
   #texto-individual hr {
     text-align: left;
     width: 100px;
     background-color: black; }
   #texto-individual .pd-10 {
     padding: 10px; }
+    #texto-individual .pd-10 #c-ho {
+      text-align: center; }
+    #texto-individual .pd-10 #c-ho:hover {
+      color: purple;
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -o-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      transform: scale(1.5); }
 
 /* Me define */
 #me-define {
-  margin: 200px 0; }
+  margin: 100px 0; }
   #me-define h1 {
     padding: 20px; }
 
@@ -67,5 +78,63 @@ body {
   o-transform: rotateY(-360deg);
   -ms-transform: rotateY(-360deg);
   transform: rotateY(-360deg); }
+
+#contact {
+  margin: 100px 0; }
+  #contact .form-control {
+    margin: 30px 0; }
+  #contact .submit {
+    background-color: #343434;
+    color: white; }
+
+.lista-icons li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px; }
+.lista-icons a {
+  color: #8A8A8A; }
+
+.collapse-side .panel-title {
+  background-color: white;
+  border: 0px 0px 1px 0px; }
+
+/* Best Offers */
+#planes .bd-tr {
+  width: 95%;
+  border: 1px solid transparent;
+  color: gray; }
+  #planes .bd-tr:hover {
+    border: 1px solid black;
+    -webkit-transition: height 2s linear;
+    -moz-transition: height 2s linear;
+    -ms-transition: height 2s linear;
+    -o-transition: height 2s linear;
+    transition: height 2s linear; }
+  #planes .bd-tr .b-d {
+    border-right: 1px solid gray; }
+  #planes .bd-tr .boton {
+    background-color: black; }
+    #planes .bd-tr .boton a {
+      text-decoration: none;
+      color: white; }
+      #planes .bd-tr .boton a:hover {
+        color: black; }
+  #planes .bd-tr .col-xs-6, #planes .bd-tr .col-xs-12 {
+    border-top: 1px solid gray;
+    padding: 3% 0%; }
+    #planes .bd-tr .col-xs-6:hover, #planes .bd-tr .col-xs-12:hover {
+      background-color: whitesmoke;
+      color: black; }
+
+/* Footer */
+footer {
+  background-color: #EDEDEE;
+  padding-top: 20px; }
+  footer p {
+    margin-top: 15px;
+    text-align: center; }
+
+.xdiwo p {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
